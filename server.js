@@ -27,7 +27,7 @@ const db = knex ({
     }
   });
 
-app.get('/', (req, res) => {res.send(database.users)})
+app.get('/', (req, res) => {res.send('it is working')})
 
 // Below - dependency injection {(req, res, db, bcrypt)}- injecting whatever dependencies
 // handleRegister needs 
