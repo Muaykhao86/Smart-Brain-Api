@@ -20,7 +20,7 @@ const db = knex ({
     client: 'pg',
     connection: {
     // Below 127.0.0.1 = home/localhost 
-      host : '127.0.0.1',
+      host : 'postgresql-opaque-24151',
       user : 'danielhardiman',
       password : '',
       database : 'smart-brain'
